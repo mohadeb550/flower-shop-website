@@ -4,7 +4,7 @@
     font-family: verdana;
 }
 
-/* common button styes ----- */
+/* common styes ----- */
 
 .common-btn{
     color:#FFF;
@@ -12,6 +12,17 @@
     border:none;
     padding:11px 14px;
     border-radius:4px;
+    cursor: pointer;
+}
+
+.bg-pink{
+    background-color:rgba(167, 33, 98, 0.15);
+}
+.bg-cyan{
+    background-color:rgba(5, 151, 160, 0.15) ;
+}
+.bg-lightGreen{
+    background-color:rgba(71, 125, 17, 0.15);
 }
 
 
@@ -40,3 +51,65 @@ header .image-part img{
     width:491px;
 }
 
+
+
+/* main section styles ------- */
+
+
+
+/* flowers section styles --------------- */
+
+
+.flowers-section{
+    width:70vw;
+    margin:120px auto 60px;
+    text-align: center;
+}
+.feature-flowers p{
+    color:rgba(0, 0, 0, 0.664);
+    margin:17px auto 85px;
+    width:45%;
+}
+.three-images{
+    display: flex;
+    justify-content: space-around;
+}
+.three-images p{
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration:underline;
+    cursor: pointer;
+}
+.image{
+    height: 430px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius:170px 170px 0px 0px;
+}
+.image img{
+    width:280px;
+}
+
+
+/* Info section styles ------------- */
+
+
+
+.info-section{
+    background: rgba(39, 39, 39, 0.05);
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+.info-section img{
+    width:58px;
+}
+.info-section p{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.786);
+    margin-top:12px;
+}
