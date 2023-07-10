@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: verdana;
+}
+
+/* common button styes ----- */
+
+.common-btn{
+    color:#FFF;
+    background: #E55473;
+    border:none;
+    padding:11px 14px;
+    border-radius:4px;
+}
+
+
+/* header part styles ------- */
+
+header{
+    height: 620px;
+    background:rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .heading{
+    width:560px;
+}
+header .heading h1{
+    font-size: 50px;
+    color:rgba(0, 0, 0, 0.789);
+    margin-bottom:27px;
+}
+header .heading p{
+    color:rgba(0, 0, 0, 0.761);
+    margin-bottom: 17px;
+}
+header .image-part img{
+    width:491px;
+}
+
