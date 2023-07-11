@@ -4,7 +4,7 @@
     font-family: verdana;
 }
 
-/* common styes ----- */
+/* common styes ------------------------ */
 
 .common-btn{
     color:#FFF;
@@ -26,7 +26,7 @@
 }
 
 
-/* header part styles ------- */
+/* header part styles ----------------- */
 
 header{
     height: 620px;
@@ -53,11 +53,11 @@ header .image-part img{
 
 
 
-/* main section styles ------- */
+/* main section styles ---------------------- */
 
 
 
-/* flowers section styles --------------- */
+/* flowers section styles ------------------------ */
 
 
 .flowers-section{
@@ -93,7 +93,7 @@ header .image-part img{
 }
 
 
-/* Info section styles ------------- */
+/* Info section styles ---------------------- */
 
 
 
@@ -112,4 +112,123 @@ header .image-part img{
     font-size: 14px;
     color:rgba(0, 0, 0, 0.786);
     margin-top:12px;
+}
+
+
+/* Discount section styles ---------------------- */
+
+.discount-section {
+    background:rgba(229, 84, 115, 0.05);
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align:center;
+}
+.discount-section img{
+    width:200px;
+    margin-right: 270px;
+}
+.discount-section .info{
+    width:35%;
+    margin-left: 170px;
+}
+.discount-section span{
+    color:#E55473;
+}
+.discount-section p{
+    color:rgba(0, 0, 0, 0.656);
+    margin: 18px 0;
+}
+.discount-section h3{
+    font-size: 24px;
+    color:rgba(0, 0, 0, 0.839);
+}
+
+ 
+
+/* Upcoming Flowers Section styles --------------- */
+
+.Upcoming-flowers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background:#507da817 ;
+}
+.Upcoming-flowers h2{
+    margin:90px 0 15px 0;
+    color:#E55473;
+    padding-right: 10px;
+    border-right: 2px solid rgba(209, 70, 100, 0.736);
+}
+.Upcoming-flowers p{
+    margin:auto;
+    width:60%;
+    margin-bottom:50px;
+    color:rgba(42, 0, 40, 0.737);
+}
+.Upcoming-flowers .three-images{
+    width:1300px;
+}
+.three-images .up-image{
+    height: 340px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.up-image img{
+    width:200px;
+}
+.three-images .caption{
+    margin-top:15px;
+    color:rgba(128, 1, 64, 0.66);
+}
+
+
+/* Instagram & submit banner section styles ------------- */
+
+
+.insta-section{
+    width:70vw;
+    text-align: center;
+    margin:100px auto;
+}
+.insta-section h2{
+    color:rgba(0, 0, 0, 0.85)
+}
+.insta-section p{
+    color:rgba(0, 0, 0, 0.618);
+    width:610px;
+    margin:17px auto 40px;
+}
+.insta-section .images{
+    display: flex;
+    justify-content: space-between;
+    gap:18px;
+}
+.insta-section img{
+    width:280px;
+    border-radius: 7px;
+}
+
+.submit-banner {
+    margin-top:100px;
+    height: 419px;
+    background:url("assets/Rectangle 9.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submit-banner input{
+    padding:13px 14px;
+    border:none;
+    width:560px;
+    border-radius: 3px;
+    outline: none;
 }
