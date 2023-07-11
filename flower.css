@@ -73,6 +73,7 @@ header .image-part img{
 .three-images{
     display: flex;
     justify-content: space-around;
+    gap:15px;
 }
 .three-images p{
     font-weight: bold;
@@ -156,6 +157,7 @@ header .image-part img{
     text-align: center;
     justify-content: space-between;
     background:#507da817 ;
+    margin-top: 110px;
 }
 .Upcoming-flowers h2{
     margin:90px 0 15px 0;
@@ -231,4 +233,34 @@ header .image-part img{
     width:560px;
     border-radius: 3px;
     outline: none;
+}
+
+
+/* footer section styles ----------------- */
+
+footer {
+    height: 340px;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer span{
+    color:#E55473;
+}
+footer .info{
+    width:610px;
+    color:rgba(255, 255, 255, 0.64);
+    font-size: 15px;
+    margin:17px 0;
+    text-align: center;
+}
+footer .rights{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.461);
+}
+footer .copyright{
+    color:#e55473c8;
 }
